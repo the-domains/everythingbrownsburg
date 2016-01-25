@@ -1,7 +1,8 @@
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+favicon: null
+cta:
+  bucket: null
+  version: null
+  domain: null
 opengraph:
   image: null
   type: null
@@ -12,17 +13,17 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.5380551312118769
+  brandStrength: 0.5035841
   lightness: 0.239825073396787
-  brandStrength: 0.8966547
   brandColors:
     - '#FFFFFF'
     - '#42657A'
@@ -31,10 +32,9 @@ color:
     - '#FFA4A5'
   rhythmicContrast: 0.6747377407737076
 typography_spectrum: 1
-cta:
-  bucket: null
-  version: null
-  domain: null
 layout_spectrum: 0.9516129
-favicon: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 name: EverythingBrownsburg

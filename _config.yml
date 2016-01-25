@@ -1,4 +1,8 @@
-name: EverythingBrownsburg
+favicon: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 opengraph:
   image: null
   type: null
@@ -18,23 +22,19 @@ collections:
 purpose: []
 color:
   saturation: 0.2562724
-  lightness: 0.6541218
   brandStrength: 0.5035841
+  lightness: 0.6541218
   brandColors:
     - '#FFFFFF'
     - '#42657A'
     - '#060404'
     - '#E91D24'
     - '#FFA4A5'
-  rhythmicContrast: 0.6747378
+  rhythmicContrast: 0.3124253
 typography_spectrum: 1
+layout_spectrum: 0.9516129
 cta:
   bucket: null
   version: null
   domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-favicon: null
-layout_spectrum: 0.9516129
+name: EverythingBrownsburg

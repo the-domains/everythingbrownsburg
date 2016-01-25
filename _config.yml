@@ -1,28 +1,40 @@
-name: EverythingBrownsburg
-favicon: null
-layout_spectrum: 0.5122684151865542
-typography_spectrum: 0.7799405013211071
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
-  brandStrength: 0.9452226383145899
-  lightness: 0.23982507339678705
-  saturation: 0.5380551312118769
-  rhythmicContrast: 0.6747377407737076
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.5380551312118769
+  lightness: 0.239825073396787
+  brandStrength: 0.8966547
+  brandColors:
+    - '#FFFFFF'
+    - '#42657A'
+    - '#060404'
+    - '#E91D24'
+    - '#FFA4A5'
+  rhythmicContrast: 0.6747377407737076
+typography_spectrum: 1
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9516129
+favicon: null
+name: EverythingBrownsburg
